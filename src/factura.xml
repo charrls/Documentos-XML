@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE facturas SYSTEM "factura.dtd">
+
+<facturas>
+
+    <factura>
+
+        <business_contact>
+            <business_name></business_name>
+            <street_address></street_address>
+            <city></city>
+            <state></state>
+            <zip_code></zip_code>
+            <email></email>
+            <website></website>
+        </business_contact>
+
+        <general_data>
+            <bill_to>
+                <client_name></client_name>
+                <street_address></street_address>
+                <city></city>
+                <state></state>
+                <zip_code></zip_code>
+            </bill_to>
+            <ship_to>
+                <client_name></client_name>
+                <street_address></street_address>
+                <city></city>
+                <state></state>
+                <zip_code></zip_code>
+            </ship_to>
+            <invoice_details>
+                <invoice_n></invoice_n>
+                <invoice_date></invoice_date>
+                <terms></terms>
+            </invoice_details>
+        </general_data>
+
+        <description_services>
+            <goods_services>
+                <product></product>
+                <description></description>
+                <qty></qty>
+                <rate></rate>
+                <amount></amount>
+            </goods_services>
+        </description_services>
+
+    </factura>
+
+</facturas>

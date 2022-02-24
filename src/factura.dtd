@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT facturas (factura)*>
+        <!ELEMENT factura (business_contact, general_data, description_services)>
+
+        <!ELEMENT business_contact (business_name,street_address, city, state, zip_code, email, website)>
+
+        <!ELEMENT general_data (bill_to, ship_to, invoice_details)>
+        <!ELEMENT bill_to (client_name, street_address, city, state, zip_code)>
+        <!ELEMENT ship_to (client_name, street_address, city, state, zip_code)>
+        <!ELEMENT invoice_details (invoice_n, invoice_date, terms)>
+
+        <!ELEMENT description_services (goods_services)*>
+        <!ELEMENT goods_services (product, description, qty, rate, amount)>
+
+
+        <!ELEMENT business_name (#PCDATA)>
+        <!ELEMENT street_address (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT zip_code (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT website (#PCDATA)>
+        <!ELEMENT client_name (#PCDATA)>
+        <!ELEMENT invoice_n (#PCDATA)>
+        <!ELEMENT invoice_date (#PCDATA)>
+        <!ELEMENT terms (#PCDATA)>
+        <!ELEMENT product (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT qty (#PCDATA)>
+        <!ELEMENT rate (#PCDATA)>
+        <!ELEMENT amount (#PCDATA)>

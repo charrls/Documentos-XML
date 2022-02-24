@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT arboles (especie)*>
+        <!ELEMENT especie (nombre, informacion)>
+        <!ELEMENT informacion (nombre_comun?, vegetación?, altura?, forma_estructura?,color_primavera?,color_otoño?,resistencia_heladas?)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT nombre_comun (#PCDATA)>
+        <!ELEMENT vegetación (#PCDATA)>
+        <!ELEMENT altura (#PCDATA)>
+        <!ELEMENT forma_estructura (#PCDATA)>
+        <!ELEMENT color_primavera (#PCDATA)>
+        <!ELEMENT color_otoño (#PCDATA)>
+        <!ELEMENT resistencia_heladas (#PCDATA)>

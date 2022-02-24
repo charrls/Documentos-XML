@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE documento SYSTEM "documento1.dtd">
+<!-- La sintaxis del documento original parece ser de HTML y solo son parrafos asi que no hay mucho que corregir -->
+<documento>
+
+    <p>Mi Primer <destacar>documento XML</destacar></p>
+    <p>Comienza con la etiqueta <!-- <documento> --></p>
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen>fichero="imagen.gif</imagen>
+
+</documento>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT menu (desayuno)*>
+        <!ELEMENT desayuno (nombre, precio, descripcion, calorias)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT calorias (#PCDATA)>

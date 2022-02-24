@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT CDsOferta (CD)*>
+        <!ELEMENT CD (titulo, artista+, pais, compañia_discografica,precio,año_publicacion)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT compañia_discografica (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT año_publicacion (#PCDATA)>
